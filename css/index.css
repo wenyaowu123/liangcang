@@ -1,0 +1,51 @@
+header{
+    margin-top: 30px;
+    width: 100%;
+}
+header ul{
+    width: 1200px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+header ul li{
+
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    margin-right: 10px;
+}
+header ul li a{
+    color: black;
+}
+
+section .goodsUl{
+    overflow: hidden;
+    margin:0 auto;
+    width: 90%;
+
+}
+section .goodsUl li{
+    display: block;
+    width: 420px;
+    height: 420px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+section .goodsUl li img{
+    width: 300px;
+}
+section p a{
+    color: black;
+}
+.price{
+    background: indianred;
+    font-size: 16px;
+    color: white;
+}

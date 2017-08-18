@@ -1,0 +1,191 @@
+/*全局通用样式*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+
+/*头部样式*/
+.header-top{
+    width: 100%;
+    height:70px;
+    background:#25292e;
+}
+.header-middle .logo a{
+    width: 100px;
+    height:45px;
+    background-image: url("../images/icon.png");
+    position: absolute;
+    top:12px;
+    float: left;
+}
+.header-middle{
+    width: 1000px;
+    height: 74px;
+    margin: 0 auto;
+}
+.logo-right{
+    width: 380px;
+    height: 20px;
+    float: right;
+    padding: 20px;
+}
+.logo-right li{
+    float: left;
+    padding:0 20px;
+    border-right: 1px solid white;
+}
+.logo-right .discolor{
+ color: darkgrey;
+}
+.logo-right .line{
+    border-right: none;
+}
+.nav{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom:2px solid ;
+}
+.nav li{
+    float: left;
+}
+.nav .fl{
+    width: 700px;
+    height: 50px;
+    float: left;
+
+}
+.nav .fl li{
+    width: 120px;
+    height: 50px;
+}
+.nav .fl>li>a{
+    color: black;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+}
+.search{
+    width:300px;
+    height: 50px;
+    float:right;
+
+}
+.search .search-icon{
+    background-image: url("../images/icon.png");
+    width: 44px;
+    height: 44px;
+    background-position:-157px -143px ;
+    float: right;
+}
+/*尾部样式*/
+#service{
+    margin-top: 30px;
+   width: 100%;
+}
+#service p{
+    width: 314px;
+    height: 32px;
+    margin: 0 auto;
+}
+#service a{
+    color:black;
+}
+#service .hand{
+    display: block;
+    background-image: url("../images/icon.png");
+    width: 30px;
+    height: 24px;
+    background-position:-174px -353px ;
+    float: left;
+}
+.slogen{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slogen dl{
+    width: 250px;
+    height: 60px;
+    float: left;
+}
+.slogen .fore1 dt{
+    background-image: url("../images/icon.png");
+    width: 56px;
+    height: 60px;
+    background-position: 0 -355px;
+    float: left;
+}
+.slogen dd{
+    width: 185px;
+}
+.slogen .fore2 dt{
+    background-image: url("../images/icon.png");
+    width: 56px;
+    height: 60px;
+    background-position: -153px -217px;
+    float: left;
+}
+.slogen .fore3 dt{
+    background-image: url("../images/icon.png");
+    width: 56px;
+    height: 60px;
+    background-position: -57px -353px;
+    float: left;
+}
+.slogen .fore4 dt{
+    background-image: url("../images/icon.png");
+    width: 56px;
+    height: 60px;
+    background-position: -114px -353px;
+    float: left;
+}
+
+/*导航样式*/
+.nav ul li{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    line-height: 30px;
+    background: white;
+    margin-left: 10px;
+    text-align: center;
+}
+.goods{
+    clear: both;
+}
+.goods ul li{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-right:10px ;
+    margin-bottom: 10px;
+    position: relative;
+}
+.goods ul li img{
+    width: 100%;
+    height: 100%;
+}
+.goods ul li p{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+    color: coral;
+    background-color: rgba(0,0,0,.3);
+    width: 100%;
+    height: 20px;
+}

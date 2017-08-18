@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+.main form{
+    width: 100%;
+    display: inline-block;
+    height: 560px;
+}
+.main form table{
+    width: 300px;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+    width: 300px;
+}
+.logo{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+#mobile{
+    border: 0;
+    width: 265px;
+    height: 40px;
+    border-bottom: solid 1px #000;
+    background:url('http://www.iliangcang.com/images/nlphone.png') no-repeat 0px 6px;
+    padding-left:35px;
+    font-size: 18px;
+}
+#code{
+    border: 0;
+    border-bottom: solid 1px #000;
+    font-size: 18px;
+    width: 137px;
+    height:40px;
+    background: url('http://www.iliangcang.com/images/nlcode.png') no-repeat 2px 8px;
+    padding-left:35px;
+    float: left;
+}
+#scode{
+    border:solid 1px #000;
+    height: 40px;
+    line-height: 34px;
+    width: 110px;
+    font-size: 16px;
+    margin-left: 12px;
+    border-radius:4px;
+    color: #333;
+    float: right;
+    cursor:pointer;
+}
+.automatic_login{
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+.logoBtn{
+    border-radius: 4px;
+    height: 50px;
+    width: 300px;
+    border: 0;
+    background: #25292e;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 9px;
+    color: white;
+    cursor:pointer;
+}
+#more{
+    color: #000;
+    font-size: 15px;
+}
