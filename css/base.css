@@ -34,7 +34,7 @@ img{
     margin: 0 auto;
 }
 .logo-right{
-    width: 380px;
+    width: 474px;
     height: 20px;
     float: right;
     padding: 20px;
@@ -66,7 +66,7 @@ img{
 
 }
 .nav .fl li{
-    width: 120px;
+    width: 100px;
     height: 50px;
 }
 .nav .fl>li>a{
@@ -80,6 +80,10 @@ img{
     height: 50px;
     float:right;
 
+}
+#search{
+   margin-left: 94px;
+    margin-top: 14px;
 }
 .search .search-icon{
     background-image: url("../images/icon.png");

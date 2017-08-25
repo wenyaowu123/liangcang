@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     margin-top: 30px;
     width: 100%;
@@ -42,10 +46,89 @@ section .goodsUl li img{
     width: 300px;
 }
 section p a{
-    color: black;
+    color: blueviolet;
 }
 .price{
     background: indianred;
     font-size: 16px;
     color: white;
+}
+
+.carousel{
+    width: 1000px;
+    height:475px;
+    margin:40px auto;
+    border:1px solid #000;
+    position: relative;
+    overflow-x: hidden;
+}
+.carousel .m_unit{
+    width: 9000px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.carousel .m_unit ul{
+    list-style: none;
+}
+.carousel .m_unit ul li{
+    float: left;
+    width:1000px;
+    height: 475px;
+    overflow: hidden;
+}
+.btn a{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top:50%;
+    margin-top: -20px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 999;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+    color: white;
+}
+.btn a.leftBtn{
+    left: 10px;
+}
+.btn a.rightBtn{
+    right: 10px;
+}
+.circles{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    width: 240px;
+    height:20px;
+}
+.circles ol{
+    list-style: none;
+}
+.circles ol li{
+    float: left;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: pink;
+    cursor: pointer;
+}
+.circles ol li.cur{
+    background-color: purple;
+}
+#self{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    border:1px solid lightgoldenrodyellow;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    margin-top:-200px ;
+    color: darkorange;
+    cursor: pointer;
 }

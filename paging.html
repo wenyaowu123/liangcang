@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>分页显示商品</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/paging.css">
+
 </head>
 <body>
 <!--导航栏 -->
@@ -41,7 +42,7 @@
             <li class="active"><a href="javascript:">杂志</a> </li>
             <li class="active"><a  href="javascript:">分享</a> </li>
             <li class="active"><a href="javascript:">达人</a> </li>
-            <li class="active"><a href="paging.html">所有商品分页</a> </li>
+
 
         </ul>
 
@@ -55,21 +56,20 @@
 
 
 
+<ul class="shop" id="shop">
 
-<header>
-      <ul id="nav">
+  </ul>
 
+  <div class="button" id="button">
+      <em id="ButtonPrev">上一页</em>
 
-      </ul>
-  </header>
+      <div class="button-center">
+          <div id="ButtonCenter"></div>
+      </div>
 
-  <section>
-      <ul class="goodsUl" id="goodsUl">
+      <em id="ButtonNext">下一页</em>
+  </div>
 
-
-      </ul>
-
-  </section>
 
 
 <!--尾部-->
@@ -115,5 +115,5 @@
 
 </body>
 <script src="js/jquery-1.12.3.min.js"></script>
-<script src="js/list.js"></script>
+<script src="js/paging.js"></script>
 </html>

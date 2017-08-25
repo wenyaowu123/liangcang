@@ -22,10 +22,10 @@
 
             <ul class="logo-right">
                 <li>
-                    <a class=" login" href="javascript:">登录</a>
-                    <a class="register" href="javascript:">注册</a>
+                    <a class=" login" href="login.html">登录</a>
+                    <a class="register" href="register.html">注册</a>
                 </li>
-                <li ><a class="cart-wrapper discolor" href="javascript:">购物车</a></li>
+                <li ><a class="cart-wrapper discolor" id="cart" href="cart.html">购物车</a></li>
                 <li ><a class="posr discolor" href="javascript:">消息</a></li>
                 <li class="line" ><a class="add discolor" href="javascript:">添加良品</a></li>
             </ul>
@@ -36,22 +36,64 @@
 
     <div class="nav">
         <ul class="fl">
-            <li class="active"><a  href="javascript:">首页</a> </li>
+            <li class="active"><a  href="index.html">首页</a> </li>
             <li class="active"><a  href="javascript:">商店</a> </li>
             <li class="active"><a href="javascript:">杂志</a> </li>
             <li class="active"><a  href="javascript:">分享</a> </li>
             <li class="active"><a href="javascript:">达人</a> </li>
-
+            <li class="active"><a href="paging.html">所有商品分页</a> </li>
 
         </ul>
 
-        <div class="search">
-            <a class="search-icon" href="javascript:"></a>
-        </div>
+        <p class="search">
+            <input type="text" id="search">
+            <a class="search-icon" id="btn1" href="detail.html"></a>
+        </p>
     </div>
 
 </div>
 
+
+<!--轮播-->
+<div class="carousel">
+    <div class="btn">
+        <a href="javascript:" class="leftBtn"><</a>
+        <a href="javascript:" class="rightBtn">></a>
+    </div>
+
+    <div class="m_unit">
+        <ul>
+            <li><a href="javascript:"><img src="images/0.jpg"></a> </li>
+            <li><a href="javascript:"><img src="images/1.jpg"></a> </li>
+            <li><a href="javascript:"><img src="images/2.jpg"></a> </li>
+            <li><a href="javascript:"><img src="images/3.jpg"></a> </li>
+            <li><a href="javascript:"><img src="images/4.jpg"></a> </li>
+            <li><a href="javascript:"><img src="images/5.jpg"></a> </li>
+            <li><a href="javascript:"><img src="images/6.jpg"></a> </li>
+            <li><a href="javascript:"><img src="images/7.jpg"></a> </li>
+        </ul>
+    </div>
+
+    <div class="circles">
+        <ol>
+            <li class="cur"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+
+    </div>
+
+</div>
+
+
+<p id="self">
+  回到顶部
+</p>
 
 
 
@@ -69,6 +111,9 @@
        </ul>
 
    </section>
+
+
+
 
 
 <!--尾部-->
@@ -110,6 +155,12 @@
     </div>
 
 </div>
+
+
+ <div>
+
+
+ </div>
 
 </body>
 

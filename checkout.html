@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>收获地址</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/checkout.css">
 </head>
 <body>
+
 <!--导航栏 -->
 <div class="header">
 
@@ -25,7 +26,7 @@
                     <a class=" login" href="login.html">登录</a>
                     <a class="register" href="register.html">注册</a>
                 </li>
-                <li ><a class="cart-wrapper discolor" id="cart"  href="javascript:">购物车</a></li>
+                <li ><a class="cart-wrapper discolor"  href="cart.html">购物车</a></li>
                 <li ><a class="posr discolor" href="javascript:">消息</a></li>
                 <li class="line" ><a class="add discolor" href="javascript:">添加良品</a></li>
             </ul>
@@ -46,30 +47,57 @@
         </ul>
 
         <p class="search">
-            <input type="text" id="search">
-            <a class="search-icon" id="search-icon" href="detail.html"></a>
+            <input type="text" id="str">
+            <a class="search-icon" id="btn" href="detail.html"></a>
         </p>
     </div>
 
 </div>
 
 
+<h4>收货地址</h4>
+<div class="address">
+    <span class="newAddress">新增地址</span>
+    <ul class="addess-ul">
+        <li class="address-item" data-id="1">收货人：小石 北京 石景山 13678766898 实兴大街朗城大厦2楼</li>
+    </ul>
+</div>
+
+<div class="add" id="add">
+    <span class="close">X</span>
+    <form action="">
+        <p>
+            收货人名称：
+            <input type="text" name="address_name"  placeholder="请输入收货人姓名"/>
+        </p>
+        <p>
+            手机：
+            <input type="text" name="mobile" placeholder="请输入收货人手机"/>
+        </p>
+        <p>
+            省：
+            <input type="text" name="province"  placeholder="请输入收货人省"/>
+        </p>
+        <p>
+            市：
+            <input type="text" name="city"  placeholder="请输入收货人市"/>
+        </p>
+        <p>
+            区：
+            <input type="text" name="district"  placeholder="请输入收货人区"/>
+        </p>
+        <p>
+            地址：
+            <input type="text" name="address"  placeholder="请输入收货人地址"/>
+        </p>
+        <input type="button" id="btn1" value="新建收货信息" />
 
 
-<header>
-      <ul id="nav">
+    </form>
+</div>
 
-
-      </ul>
-  </header>
-
-  <section>
-      <ul class="goodsUl" id="goodsUl">
-
-
-      </ul>
-
-  </section>
+<div id="sum"></div>
+<input type="button" id="order" value="下订单"/>
 
 
 <!--尾部-->
@@ -113,7 +141,12 @@
 </div>
 
 
+<div>
+
+
+</div>
+
 </body>
 <script src="js/jquery-1.12.3.min.js"></script>
-<script src="js/list.js"></script>
+<script src="js/checkout.js"></script>
 </html>

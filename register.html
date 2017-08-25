@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>用户注册</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/register.css">
+
 </head>
 <body>
+
 <!--导航栏 -->
 <div class="header">
 
@@ -25,7 +27,7 @@
                     <a class=" login" href="login.html">登录</a>
                     <a class="register" href="register.html">注册</a>
                 </li>
-                <li ><a class="cart-wrapper discolor" id="cart"  href="javascript:">购物车</a></li>
+                <li ><a class="cart-wrapper discolor"  href="cart.html">购物车</a></li>
                 <li ><a class="posr discolor" href="javascript:">消息</a></li>
                 <li class="line" ><a class="add discolor" href="javascript:">添加良品</a></li>
             </ul>
@@ -46,30 +48,30 @@
         </ul>
 
         <p class="search">
-            <input type="text" id="search">
-            <a class="search-icon" id="search-icon" href="detail.html"></a>
+            <input type="text" id="str">
+            <a class="search-icon" id="btn" href="detail.html"></a>
         </p>
     </div>
 
 </div>
 
 
+   <form>
+       <p class="op1">
+           用户名:
+           <input type="text" name="username" placeholder="请输入用户名">
+           <span class="success">用户名可用</span>
+           <span class="error">用户名重复！请重新输入</span>
+       </p>
 
+        <p class="op2">
+            密码:&nbsp;&nbsp;&nbsp;
+            <input type="password" name="password" placeholder="请输入密码">
+        </p>
 
-<header>
-      <ul id="nav">
+       <input type="button" value="注册" id="reg">
+   </form>
 
-
-      </ul>
-  </header>
-
-  <section>
-      <ul class="goodsUl" id="goodsUl">
-
-
-      </ul>
-
-  </section>
 
 
 <!--尾部-->
@@ -113,7 +115,14 @@
 </div>
 
 
+<div>
+
+
+</div>
+
+
+
 </body>
 <script src="js/jquery-1.12.3.min.js"></script>
-<script src="js/list.js"></script>
+<script src="js/register.js"></script>
 </html>

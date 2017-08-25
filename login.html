@@ -2,71 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>login</title>
+    <title>登录</title>
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/login.css">
 
 </head>
 <body>
+<!--导航栏 -->
+<div class="header">
 
-   <div class="main">
-      <form>
-          <table>
-              <tobdy>
-                  <tr class="center">
-                      <td>
-                          <a href="javascript:">
-                              <img class="logo" src="http://www.iliangcang.com/images/nlicon.png">
-                          </a>
-                      </td>
-                  </tr>
+    <div class="header-top">
 
-                  <tr class="center">
-                      <td>
-                          <div>
-                              <input id="mobile" value placeholder="输入手机号">
-                          </div>
-                      </td>
-                  </tr>
+        <div class="header-middle">
 
-                  <tr  class="center">
-                      <td>
-                          <div>
-                              <input id="code" value placeholder="验证码">
-                              <div id="scode">
-                                  获取验证码
-                              </div>
-                          </div>
-                      </td>
-                  </tr>
+            <div class="logo">
 
-                  <tr  class="center">
-                      <td class="automatic_login">
-                          <input type="checkbox">
-                          <span>自动登录</span>
-                      </td>
-                  </tr>
+                <a href="javascript:"></a>
 
-                  <tr  class="center">
-                      <td>
-                          <input type="submit" value="登录" class="logoBtn">
-                      </td>
-                  </tr>
+            </div>
 
-                  <tr  class="center">
-                      <td>
-                          <a id="more" href="javascript:">更多登录方式 ></a>
-                      </td>
-                  </tr>
+            <ul class="logo-right">
+                <li>
+                    <a class=" login" href="login.html">登录</a>
+                    <a class="register" href="register.html">注册</a>
+                </li>
+                <li ><a class="cart-wrapper discolor"  href="cart.html">购物车</a></li>
+                <li ><a class="posr discolor" href="javascript:">消息</a></li>
+                <li class="line" ><a class="add discolor" href="javascript:">添加良品</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="nav">
+        <ul class="fl">
+            <li class="active"><a  href="index.html">首页</a> </li>
+            <li class="active"><a  href="javascript:">商店</a> </li>
+            <li class="active"><a href="javascript:">杂志</a> </li>
+            <li class="active"><a  href="javascript:">分享</a> </li>
+            <li class="active"><a href="javascript:">达人</a> </li>
+            <li class="active"><a href="paging.html">所有商品分页</a> </li>
+
+        </ul>
+
+        <p class="search">
+            <input type="text" id="str">
+            <a class="search-icon" id="btn" href="javascript:"></a>
+        </p>
+    </div>
+
+</div>
 
 
+   <form>
+     <p class="op1">
+         用户名
+         <input type="text" name="username" placeholder="请输入用户名">
+     </p>
 
-              </tobdy>
-          </table>
-      </form>
-   </div>
+     <p class="op2">
+         密码
+         <input type="password" name="password" placeholder="请输入密码">
+     </p>
+
+       <input type="button" value="登录" id="login">
+   </form>
+
+
+<!--尾部-->
+<div id="service">
+    <p>
+        <a class="hand" href="javascript:"></a>
+        <a href="javascript:">良仓商店/OUR SHOP</a>
+    </p>
+
+    <div class="slogen">
+        <dl class="fore1">
+            <dt></dt>
+            <dd>
+                <p class="chinesetop">全球精品</p>
+                <p class="english">GLOBAL Selections</p>
+            </dd>
+        </dl>
+        <dl class="fore2">
+            <dt></dt>
+            <dd>
+                <p class="chinesetop">正品保证</p>
+                <p class="english">Authenticity</p>
+            </dd>
+        </dl>
+        <dl class="fore3">
+            <dt></dt>
+            <dd>
+                <p class="chinesetop">全场包邮</p>
+                <p class="english">Free Delivery</p>
+            </dd>
+        </dl>
+        <dl class="fore4">
+            <dt></dt>
+            <dd>
+                <p class="chinesetop">chinesetop</p>
+                <p class="english">工作日 09:00-18:00</p>
+            </dd>
+        </dl>
+    </div>
+
+</div>
+
+
+<div>
+
 
 
 </body>
+<script src="js/jquery-1.12.3.min.js"></script>
 <script src="js/login.js"></script>
-
 </html>
